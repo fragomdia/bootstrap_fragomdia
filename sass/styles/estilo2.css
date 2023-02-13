@@ -1,0 +1,108 @@
+/*Nav*/
+nav {
+    z-index: 11;
+}
+nav img {
+    height: 75px;
+}
+/*Hero*/
+#hero {
+    background-image: url("../../img/fondoHero.jpg");
+    background-size: cover;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    background-color: black;
+    opacity: .6;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.texto {
+    z-index: 10;
+}
+/*...*/
+.cajas {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 5%;
+    margin: auto;
+}
+.caja1 {
+    background-image: url("../../img/imagenTarjeta1.jpg");
+    background-size: cover;
+    height: 15vh;
+    width: 25vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.caja2 {
+    background-image: url("../../img/imagenTarjeta2.jpg");
+    background-size: cover;
+    height: 15vh;
+    width: 25vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.caja3 {
+    background-image: url("../../img/imagenTarjeta3.jpg");
+    background-size: cover;
+    height: 15vh;
+    width: 25vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.caja1 h3, .caja2 h3, .caja3 h3 {
+    text-transform: uppercase;
+}
+.c {
+    position: absolute;
+}
+.overlayBlue {
+    position: absolute;
+    background-color: blue;
+    opacity: .4;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.overlayYellow {
+    position: absolute;
+    background-color: orange;
+    opacity: .3;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}.overlayRed {
+    position: absolute;
+    background-color: red;
+    opacity: .3;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.firma {
+    height: 50px;
+}
+.card img {
+    height: 15rem;
+    object-fit: cover;
+}
+/*carrusel*/
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}

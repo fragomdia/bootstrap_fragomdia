@@ -1,0 +1,27 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$custom-colors: (
+  "violet": #563b63,
+  "secondary":  $gray-800,
+  "apagaillo": $gray-400,
+  "separate": whitesmoke,
+  "verdecino": aquamarine,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+$font-primary: "Quicksand", sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.btn-alternate {
+    --bs-btn-color: white;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: white;
+}
+
+* {
+  font-family: $font-primary;
+}
